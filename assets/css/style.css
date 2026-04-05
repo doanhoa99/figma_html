@@ -581,7 +581,7 @@ a {
 
 .blogs .item {
   flex-shrink: 0;
-  width: calc(33.33% - 20px);
+  width: calc(33.33% - 20p);
   background-color: #fff;
   border-radius: 16px;
 }
@@ -668,4 +668,81 @@ a {
 .blogs .dot.active {
   background-color: var(--primary-color);
   cursor: default;
+}
+
+/* =================footer================== */
+footer {
+  background-color: #2e2100;
+  padding: 96px 135px 0;
+}
+
+.footer .row {
+  display: flex;
+  padding-bottom: 38px;
+  border-bottom: 1px solid #59554b;
+}
+
+.footer .row .column:first-child {
+  width: 35%;
+}
+
+.footer .row .column {
+  width: 21.6%;
+}
+
+.footer .desc {
+  margin-top: 18px;
+  width: 267px;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: #bfbcb2;
+}
+
+.footer .socials {
+  display: flex;
+  margin-top: 18px;
+  gap: 18px;
+}
+
+.footer .title {
+  padding-bottom: 14px;
+  padding-right: 48px;
+  border-bottom: 1px solid #59554b;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: #ffffff;
+}
+
+.footer .list {
+  margin-top: 28px;
+}
+
+.footer .list a {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: #bfbcb2;
+}
+
+.footer .list .li:first-child a {
+  margin-bottom: 0;
+}
+
+.footer .list strong {
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: #ffff;
+}
+
+.footer .copyright {
+  padding: 28px 0;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 26px;
+  text-align: center;
+  color: #807d74;
 }
